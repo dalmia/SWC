@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_header"
+        android:id="@+id/login_header"
+        android:adjustViewBounds="true" />
+
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_below="@id/login_header"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6dp"
+        android:indeterminateOnly="true"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/login_progress"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/login_screen_padding"
+            android:id="@+id/login_layout">
+
+            <RelativeLayout
+                android:id="@+id/username_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/username_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_user"
+                    android:layout_centerVertical="true" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_toRightOf="@+id/username_image"
+                    android:hint="@string/username"
+                    android:imeOptions="actionNext"
+                    android:inputType="text" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username_layout"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/password_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_pass"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_centerVertical="true" />
+
+                <FrameLayout
+                    android:id="@+id/password_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/password_image">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:hint="@string/password"
+                        android:imeOptions="actionDone"
+                        android:inputType="text" />
+
+                    <ImageView
+                        android:id="@+id/show_hide_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="10dp"
+                        android:clickable="true"
+                        android:onClick="toggleVisibility"
+                        android:src="@drawable/ic_show_password"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </RelativeLayout>
+
+
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:onClick="login"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your webmail credentials here"
+                android:layout_above="@id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:alpha=".4"
+            android:id="@+id/overlay"
+            android:visibility="invisible">
+
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">SWC</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="error_logging_in">Error Logging In</string>
+    <string name="login_detail_not_given">Enter Your Credentials</string>
+    <string-array name="branch_names">
+        <item>Biosciences &amp; Bioengineering</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civil Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Design</item>
+        <item>Electronics &amp; Electrical Engineering</item>
+        <item>Humanities and Social Sciences</item>
+        <item>Mathematics</item>
+        <item>Mechanical Engineering</item>
+        <item>Physics</item>
+    </string-array>
+    <string-array name="branch_description">
+        <item>The Department of Biosciences and Bioengineering at the Indian Institute of Technology Guwahati (IITG) was established in November 2002 to contribute the fascinating and emerging area of biological sciences. It has both undergraduate (B.Tech.) and postgraduate (M.Tech. and Ph.D.) academic programmes.The Department is unique in North-Eastern India, imparting quality education and providing an excellent research environment through its ongoing programmes. It imparts training for students to make them competent, motivated engineers and scientists. The department has 37 faculty members from diverse streams and specializations. The department has developed extensive research facility and infrastructure to support the ongoing teaching and research initiatives.
+            \n \nThe major thrust of the department includes biochemical engineering, tissue engineering, plant biotechnology, nanobiotechnology, computational biology, cancer biology, infectious diseases and proteomics. The department has initiated efforts to establish advanced research laboratories in all the thrust areas. Apart from fundamental research, the department aims to meet the targeted demands to cater the requirements of biotechnology based industries.</item>
+        <item>Welcome to the department of Chemical Engineering at Indian Institute of Technology Guwahati. Started functioning in 2002, the department is a major academic host offering B. Tech., M. Tech., and Ph. D. in Chemical Engineering. The department is endowed with young, vibrant and dynamic faculty well qualified to impart high quality teaching and research in Chemical Engineering. The research interests of the faculty vary broadly ranging from nano scale to meso scale systems/technology that may demand a collaborative approach with Chemistry, Materials Science, Bio-technology, Computing and Electronics.</item>
+        <item>Department of Chemistry, Indian Institute of Technology Guwahati is one of the globally recognized, emerging and leading department in science and technology with a growing list of accolades earned nationally and internationally. The Department started in 1995, covers all the major areas of Chemistry, viz. inorganic, organic, physical and theoretical chemistry. In addition to teaching chemistry courses to the undergraduate students of B.Tech in Chemical Science and Technology (CST) &amp; advanced chemistry courses to the students of M.Sc. and the research scholars intending to do Ph.D., the department is actively engaged in research in the frontier areas of topical importance. The faculties are actively involved in sponsored research projects.</item>
+        <item>Civil Engineering is considered to be the most versatile branch among all the engineering branches. It is the branch with a lot of diversity from geotechnical sciences to structural engineering, environmental to hydraulics, transportation to hydrology; Civil Engineering can be considered as a single largest branch among all the engineering branches.
+
+\n \nThe Department of Civil Engineering since its formation is committed to research and development in civil engineering. The vision of the department is to give an exposure to budding civil technocrats to various challenges in the profession.
+
+\n \nThe department offers courses at undergraduate level, graduate level and PhD doctorate. The main areas of research include Geotechnical Engineering, Structural Engineering, Hydraulics Engineering, Hydrology, GIS and GPS Systems, Design of Structures, Environmental Engineering, Solid Mechanics and Transportation Engineering. The department also handles consultancy works and projects.</item>
+        <item>The Department of Computer Science and Engineering at the Indian Institute of Technology Guwahati,
+            was formed in 1995. Since its inception,
+            the department has always been recognized all over the world for excellence
+            in research and teaching. The Department provides an outstanding research
+            environment complemented by superior teaching for its students to flourish in.
+            The major areas of research include Algorithms, Computational Geometry, Mobile Robotics,
+            Artificial Intelligence, Speech Processing, Natural Language Processing, Image Processing,
+            Software Engineering, Formal Verification, Electronic CAD, Computer Systems &amp; Security, Networks
+            . Besides theoretical research, faculty in the department also maintain strong ties with many reputed national and international companies and are involved in a large number of projects in the forefronts of cutting edge technology.</item>
+
+        <item>The Department of Design(DoD), one of the thirteen departments at IIT Guwahati,
+            was set up with a vision to enkindle some of the brightest technical minds of the country
+            a passion for innovation in technology driven by a firm understanding, appreciation and celebration
+            of design.\n \nThe department offers an M.Des. degree, a B.Des. degree (the only undergraduate level degree of its kind in an Indian Institute of Technology) and a PhD degree in Design. The focus of the program is on the study, invention, and creative use of technologies to create effective, usable, enjoyable experiences with technology through interdisciplinary research in engineering, design, behavioral and social sciences, and to understand the impact of technology on individuals, groups, and organizations. The department envisions to produce successful graduates who will be capable of leading the changing scenarios of today and tomorrow through thought, innovation and values.
+            \n \nThe institute is situated in North Guwahati, Assam, on the north bank of the river
+            Brahmaputra amidst breathtaking natural beauty and serenity. The full fledged campus
+            sprawls over 285 hectares of gently undulating terrain with several hillocks covered with
+            lush green vegetation, a few lakes and a panoramic view of the mighty river on one side and a
+            ring of blue hills on the other. The Institute is conveniently accessible from all the transport hubs in the Guwahati city
+        </item>
+
+
+        <item>The department was established during the inception of the institute in 1995 as the department of Electronics and Communication Engineering (ECE). Since its commencement, the primary objective of the department has been to impart quality education, training and research at the undergraduate, postgraduate and doctoral levels in various areas of Electronics and Communication Engineering with broad emphasis on design aspects of electronic systems.</item>
+        <item>The Department of Humanities and Social Sciences consists of eight academic disciplines, viz. Economics, English (Language and Literature), Linguistics, Political Science, Philosophy, Psychology, Sociology and History &amp; Archeology. The department offers courses for students at B Tech, MA and PhD level.
+
+At the BTech level, the courses in English are aimed at exposing students to Literature and Culture, Cognition and Social issues. Courses also help students in developing communication and language skills.
+
+Apart from the introductory courses, Philosophy syllabi center around discourses on Science and Philosophy, Studies on Consciousness, Applied areas of Philosophy like Critical thinking, Applied ethics and Philosophy of Technology.
+
+The courses in Economics focus not only on economic theory but also on its application centering around business, environment, entrepreneurship, financial system, etc. The courses intend to broaden students’ understanding of the application of economic tools in domestic and global situations besides finding the correlation between technology and overall economic development.
+
+Psychology syllabi are designed to provide basic insight into the rudiments of Psychology, Cognitive Psychology and Organizational Behaviour in modern Management Studies.
+
+Sociology attempts to sensitize students with paradoxical issues innate in societies. It also aims towards developing ‘sociological imagination’ in contemporary and traditional aspects of Indian Society and the global world order. Sociology of Cyberspace is an innovative course exploring the political economy and cultural politics of cyberspace.
+
+The courses in History and Archaeology promise to be an intellectual practice discussing major cultural issues providing students a bridge between the technological world and society. Courses are designed to broaden students’ perspective on cultural ecology, India’s colonial past and its scientific tradition.</item>
+        <item>The department has at present 33 energetic and dedicated faculty members in many diverse areas of mathematics, and it also boasts of hosting visits of a good number of distinguished mathematicians every year. The department has its own state-of-the-art computing laboratories and it also hosts the National Board of Higher Mathematics (NBHM) Regional Library. The department has also been actively engaged in organizing conferences, workshops, QIP short term courses and training programmes for both teachers and students including Mathematics Training and Talent Search Programme (MTTS) and Advanced Training in Mathematics (ATM) Schools.
+
+\n \nHaving started the PhD programme in 1996, the department initiated a 2-year M.Sc. programme in Mathematics and Computing in 2000. From academic year 2006-2007, the department started a unique 4-year B.Tech. programme in Mathematics and Computing - the first of its kind in the country. This unique programme comprises of courses in mathematics, statistics, computer science and financial engineering. The department also supports all the engineering and science departments by offering core and advance courses in mathematics at the undergraduate B.Tech. Level over a number of semesters. The department is likely start a dual degree M.Sc-PhD programme in near future.
+
+\n \nMany of the graduated students have gone for higher studies in reputed universities abroad and within India. Regarding campus placement, some of the recruiters of our students are Adobe, Amazon, Bank of America, Deloitte, Ericsson, Facebook, Infosys, Xerox Research, Microsoft, Oracle, Samsung, PWC.</item>
+        <item>The department of mechanical engineering, being one of the largest and oldest departments of the institute, caters to its students with class tutorial and state-of-the-art laboratories. The department is continuously striving to achieve excellence in education, academic and industry oriented research as well as consultancy work with service to the society.
+
+\n \nWe aim to provide our students with a perfect blend of intellectual and practical experiences, that helps them to serve our society and address a variety of needs. At the end of our program, students are prepared for entry-level work as a mechanical engineer as well as for the post-graduate study in mechanical engineering or in another discipline, where a fundamental engineering background constitutes a desirable foundation. Academic course work and projects are designed to endow students with the ability to apply knowledge of science, mathematics, and engineering, and the capability to work effectively in multidisciplinary teams, providing leadership and technical expertise.
+
+\n \nWith a solid grounding in the principles and practice of mechanical engineering, our undergraduates are ready to engage in ethical approaches to engineering, with concern for society and the environment. Our program at the postgraduate level aligns academic course work with research, to prepare scholars in specialized areas within the field of mechanical engineering. Research topics focus on industrial needs.
+
+</item>
+        <item>The Department of Physics at the Indian Institute of Technology Guwahati, was formed in 1995. The Department has highly active and vibrant faculty members committed to impart high quality research standards in pure and applied areas of physics and also trains students to become competent and motivated physicists. The research interests of the faculty members cover broad range of physics: Condensed Matter Physics , Lasers and Photonics, High Energy, Theoretical, Mathematical Physics and Astrophysics. The department has state-of-the-art research laboratories and computational facilities. The department currently offers four year B. Tech. (Engineering Physics), two year M. Sc. and Ph. D programs.Such programs have been assisted by sophisticated B. Tech. and M. Sc. Laboratories.</item>
+    </string-array>
+    <string name="title_activity_branch_detail">BranchDetailActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_logout">Logout</string>
+    <string name="documents_required_starter">The below are the minimum required documents as
+        prescribed by JoSAA. It is suggested to carry more than just a couple of photographs as they will
+        be needed, a lot. Also keep a digital copy of the same along with that of your signature handy.
+        It will help you later. \n Along with the below original certificates, candidates are advised to
+        bring the following : \n1. Printout of locked choices and terms and conditions taken from the JoSAA
+        website and duly signed by the candidate.\n2. One set of self-attested copies of all the documents
+        listed above. The originals will be returned after verification and self-attested copies
+        will be retained by the Reporting Centre.</string>
+    <string name="welcome_message">Welcome To SWC</string>
+
+    <string name="documents" >
+        1.  One copy of Provisional Seat Allocation letter [to be downloaded from the JoSAA portal].\n
+        2.  Original receipt of proof of payment for seat acceptance fee of Rs.45,000 (for GEN, OBC-NCL and Foreign) OR Rs.20,000 (for SC, ST, GEN-PwD, OBC-NCL-PwD, SC-PwD, ST-PwD) in State Bank of India using E-Challan [to be downloaded from the JoSAA portal].\n
+        3.  Filled-up Undertaking by the candidate [as per <a href="http://josaa.nic.in/webinfo/PDFViewer.aspx?page=Undertaking%20by%20Candidate">Annexure 9</a> given in JoSAA website].\n
+        4.  Duly certified original medical report [as per <a href="http://josaa.nic.in/webinfo/PDFViewer.aspx?page=Medical%20Report">Annexure 8</a> given in JoSAA website].\n
+        5.  Two Passport size photographs of the candidate. \n
+        6.  Original and one photocopy of Admit Card of JEE (Advanced) 2015.\n
+        7.  Original and one attested photocopy of Birth certificate or equivalent original certificate as proof of date of birth.\n
+        8.  Original and one attested photocopy of Certificate as proof of Name [to tally with the entry in JoSAA database] (example: Marksheet or Certificate of Xth Exam).\n
+        9.  Original and one attested photocopy of Category (SC / ST) certificate, if applicable, in the <a href="http://josaa.nic.in/webinfo/PDFViewer.aspx?page=FormEC1_SC_ST">format</a>
+        given in JoSAA website (Issued by competent authority).\n"
+        10. Original and one attested photocopy of Certificate of category of OBC-NCL (central list of
+        NCBC), if applicable, is to be issued by the competent authority in the prescribed <a href="http://josaa.nic.in/webinfo/PDFViewer.aspx?page=FormEC2_OBC">format</a> given in JoSAA website and should clearly mention that the candidate belongs to Non Creamy Layer. The certificate should have been issued after 1st June, 2014.\n
+        11. Original and one attested photocopy of valid Disability certificate (if applicable) for PwD candidates.\n
+        12. Original and one photocopy of valid Nationality certificate/document/passport (if applicable) for candidates with nationality as Foreign, OCI and PIO card holders.\n
+        13. Original and one photocopy of valid Class XII marks sheet.\n
+        The above are the minimum required documents as prescribed by JoSAA. It is suggested to carry more than just a couple of photographs as they will be needed, a lot. Also keep a digital copy of the same along with that of your signature handy. It will help you later. \n Along with the above original certificates, candidates are advised to bring the following : \n 1. Printout of locked choices and terms and conditions taken from the JoSAA website and duly signed by the candidate.\n 2. One set of self-attested copies of all the documents listed above. The originals will be returned after verification and self-attested copies will be retained by the Reporting Centre."
+
+    </string>
+    <string name="done">DONE</string>
+    <string name="skip">SKIP</string>
+</resources>

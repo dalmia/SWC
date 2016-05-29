@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <view
+            android:id="@+id/note_icon"
+            style="@style/TextView.CircleIcon"
+            class="com.amandalmia.swc.helper.TextViewPlus"
+            android:layout_gravity="center_vertical" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+
+            <view
+                android:id="@+id/note_title"
+                style="@style/TextView.Title.Thin"
+                class="com.amandalmia.swc.helper.TextViewPlus"
+                android:layout_width="wrap_content"
+                android:paddingTop="16dp"
+                android:singleLine="true"
+                tools:text="New Notice" />
+
+
+            <view
+                android:id="@+id/note_description"
+                style="@style/TextView.Body1.Thin"
+                class="com.amandalmia.swc.helper.TextViewPlus"
+                android:layout_below="@id/note_title"
+                android:ellipsize="end"
+                android:paddingBottom="16dp"
+                android:singleLine="true"
+                tools:text="Holiday" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorDivider"></View>
+
+
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/tutorial_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.amandalmia.swc.helper.TextViewPlus
+        android:id="@+id/device_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="View your day&apos;s schedule"
+        style="@style/TextView.Title.Thin"
+        android:padding="10dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/device_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/first_tutorial_screen" />
+
+
+
+</LinearLayout>

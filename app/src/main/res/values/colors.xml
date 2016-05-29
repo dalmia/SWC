@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorRed">#FF5252</color>
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorDivider">#1E000000</color>
+    <color name="tabUnselected">#E0E0E0</color>
+    <color name="blackSecondaryText">#727272</color>
+    <color name="blackPrimaryText">#212121</color>
+    <color name="appBackground">#D3D3D3</color>
+</resources>
